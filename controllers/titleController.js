@@ -1,6 +1,6 @@
-const request = require('request');
-const fetch = require('node-fetch');
 const cheerio = require('cheerio');
+const fetch = require('node-fetch');
+const request = require('request');
 
 exports.homePage = (req, res) => {
   request('http://zelip.me', function(error, response, body) {
